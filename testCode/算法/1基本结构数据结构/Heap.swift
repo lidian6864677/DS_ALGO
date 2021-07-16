@@ -61,12 +61,11 @@ class Heap<T>: NSMutableArray,HeapCompare {
             var childIndex = (index << 1) + 1
             var child = elements?[childIndex]
             let rightIndex  = childIndex + 1
-            let right  = elements?[rightIndex]
-            if rightIndex < size && (compare(right, child) > 0){
+            if rightIndex < size && (compare(elements?[rightIndex], child) > 0){
                 childIndex = rightIndex
                 child = elements?[rightIndex]
             }
-            if compare(right, child) >= 0 {break }
+            if compare(e, child) >= 0 {break }
             elements?[index] = child
             index = childIndex
         }

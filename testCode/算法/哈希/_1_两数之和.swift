@@ -44,9 +44,6 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
  1. 创建map
  2. 对nums内每一个值做减法 target - num 的结果为key index为value  存入hasmap中
  3. 判断map中是否存在此值，存在则  条件成立 返回  返回存入的
- 
- 
- 
  */
 func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
     var map = [Int:Int]()

@@ -13,13 +13,24 @@ import Foundation
 
 
 //creat
-let sortArray = createRandom(count: 50000, min: 0, max: 10000)
+//var sortArray = createRandom(count: 100, min: 0, max: 1000)
+//var sortArray = createRandom(count: 1000, min: 0, max: 10000)
+var sortArray = createRandom(count: 10000, min: 0, max: 100000)
+//var sortArray = [4,3,2,1]
 testSorts(array: sortArray,
-          BubbleSort01(),
-          BubbleSort02(),
-          BubbleSort03(),
-          BubbleSort01(),
-          BubbleSort01()
+//          BubbleSort01(),
+//          BubbleSort02(),
+//          SelectSort01(),
+//          InsertionSort01()
+          
+//          HeapSort(),
+//          MergeSort(),
+//          QuickSort(),
+//          ShellSort()
+          
+//          CountingSort(),
+//          RadixStor(),
+//          BucketSort()
           )
 
 //func createRandom(){

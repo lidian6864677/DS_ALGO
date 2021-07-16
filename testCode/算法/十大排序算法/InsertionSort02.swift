@@ -9,7 +9,7 @@ import Cocoa
 
 /// 插入排序02
 class InsertionSort02: BaseSort {
-    
+    // 配合 二分查找
     override func sortAction() {
         
     }
