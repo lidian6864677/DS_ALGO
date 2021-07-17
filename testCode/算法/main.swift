@@ -14,9 +14,10 @@ import Foundation
 
 //creat
 //var sortArray = createRandom(count: 100, min: 0, max: 1000)
-//var sortArray = createRandom(count: 1000, min: 0, max: 10000)
-var sortArray = createRandom(count: 10000, min: 0, max: 100000)
+var sortArray = createRandom(count: 1000, min: 0, max: 10000)
+//var sortArray = createRandom(count: 10000, min: 0, max: 100000)
 //var sortArray = [4,3,2,1]
+
 testSorts(array: sortArray,
 //          BubbleSort01(),
 //          BubbleSort02(),
@@ -28,9 +29,9 @@ testSorts(array: sortArray,
 //          QuickSort(),
 //          ShellSort()
           
-//          CountingSort(),
-//          RadixStor(),
-//          BucketSort()
+          CountingSort(),
+          RadixStor(),
+          BucketSort()
           )
 
 //func createRandom(){
