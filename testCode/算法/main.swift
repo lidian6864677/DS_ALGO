@@ -10,15 +10,17 @@ import Foundation
 //_17_电话号码的字母组合()
 //斐波那契数()
 //_3_无重复字符的最长子串()
+//爬楼梯()
+汉诺塔()
 
 
 //creat
 //var sortArray = createRandom(count: 100, min: 0, max: 1000)
-var sortArray = createRandom(count: 1000, min: 0, max: 10000)
+//var sortArray = createRandom(count: 1000, min: 0, max: 10000)
 //var sortArray = createRandom(count: 10000, min: 0, max: 100000)
 //var sortArray = [4,3,2,1]
 
-testSorts(array: sortArray,
+//testSorts(array: sortArray,
 //          BubbleSort01(),
 //          BubbleSort02(),
 //          SelectSort01(),
@@ -29,10 +31,10 @@ testSorts(array: sortArray,
 //          QuickSort(),
 //          ShellSort()
           
-          CountingSort(),
-          RadixStor(),
-          BucketSort()
-          )
+//          CountingSort(),
+//          RadixStor(),
+//          BucketSort()
+//          )
 
 //func createRandom(){
 //

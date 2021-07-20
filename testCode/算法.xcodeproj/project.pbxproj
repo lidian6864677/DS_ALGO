@@ -24,6 +24,8 @@
 		3D840CAC26A0429000AA49AF /* CountingSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D840CAB26A0429000AA49AF /* CountingSort.swift */; };
 		3D840CAF26A0601600AA49AF /* RadixStor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D840CAE26A0601600AA49AF /* RadixStor.swift */; };
 		3D840CB226A0672200AA49AF /* BucketSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D840CB126A0672200AA49AF /* BucketSort.swift */; };
+		3D840D1426A6A8F600AA49AF /* 爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D840D1326A6A8F600AA49AF /* 爬楼梯.swift */; };
+		3D840D1926A6AE7800AA49AF /* 汉诺塔.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D840D1826A6AE7800AA49AF /* 汉诺塔.swift */; };
 		3D8A4C14268F3B26007FAE81 /* _17_电话号码的字母组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A4C13268F3B26007FAE81 /* _17_电话号码的字母组合.swift */; };
 		3D8A4C18268F4302007FAE81 /* _3_无重复字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A4C17268F4302007FAE81 /* _3_无重复字符的最长子串.swift */; };
 		3D8A4C3E2691B563007FAE81 /* TopK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A4C3D2691B562007FAE81 /* TopK.swift */; };
@@ -66,6 +68,8 @@
 		3D840CAB26A0429000AA49AF /* CountingSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingSort.swift; sourceTree = "<group>"; };
 		3D840CAE26A0601600AA49AF /* RadixStor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadixStor.swift; sourceTree = "<group>"; };
 		3D840CB126A0672200AA49AF /* BucketSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketSort.swift; sourceTree = "<group>"; };
+		3D840D1326A6A8F600AA49AF /* 爬楼梯.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "爬楼梯.swift"; sourceTree = "<group>"; };
+		3D840D1826A6AE7800AA49AF /* 汉诺塔.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "汉诺塔.swift"; sourceTree = "<group>"; };
 		3D8A4C13268F3B26007FAE81 /* _17_电话号码的字母组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_17_电话号码的字母组合.swift"; sourceTree = "<group>"; };
 		3D8A4C17268F4302007FAE81 /* _3_无重复字符的最长子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_3_无重复字符的最长子串.swift"; sourceTree = "<group>"; };
 		3D8A4C3D2691B562007FAE81 /* TopK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopK.swift; sourceTree = "<group>"; };
@@ -181,8 +185,11 @@
 		3D68582A265B89E2006AA90D /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
-				3DD187A3265B8CCA00E39177 /* 斐波那契数.swift */,
 				3D68582B265B89E2006AA90D /* main.swift */,
+				3D840D1226A6A8E000AA49AF /* New Group */,
+				3DD187A3265B8CCA00E39177 /* 斐波那契数.swift */,
+				3D840D1326A6A8F600AA49AF /* 爬楼梯.swift */,
+				3D840D1826A6AE7800AA49AF /* 汉诺塔.swift */,
 				3D8A4C432692AB56007FAE81 /* 1基本结构数据结构 */,
 				3D609D75269BE70A006915E1 /* 堆 */,
 				3D609D7B269BE73D006915E1 /* 队列和栈 */,
@@ -194,6 +201,13 @@
 				3D609D78269BE72B006915E1 /* 字符串 */,
 			);
 			path = "算法";
+			sourceTree = "<group>";
+		};
+		3D840D1226A6A8E000AA49AF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		3D8A4C432692AB56007FAE81 /* 1基本结构数据结构 */ = {
@@ -294,12 +308,14 @@
 				3D8A4C3E2691B563007FAE81 /* TopK.swift in Sources */,
 				3D8A4C4A2692ABB0007FAE81 /* Queue.swift in Sources */,
 				3D8A4C412692AA31007FAE81 /* 二叉树遍历.swift in Sources */,
+				3D840D1426A6A8F600AA49AF /* 爬楼梯.swift in Sources */,
 				3DD187A4265B8CCA00E39177 /* 斐波那契数.swift in Sources */,
 				3D840CB226A0672200AA49AF /* BucketSort.swift in Sources */,
 				3D840CAF26A0601600AA49AF /* RadixStor.swift in Sources */,
 				3D8A4C14268F3B26007FAE81 /* _17_电话号码的字母组合.swift in Sources */,
 				3D609D83269BE953006915E1 /* BaseSort.swift in Sources */,
 				3D8A4C452692AB77007FAE81 /* Heap.swift in Sources */,
+				3D840D1926A6AE7800AA49AF /* 汉诺塔.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

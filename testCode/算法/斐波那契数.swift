@@ -17,20 +17,31 @@ func 斐波那契数(){
 //    check(title: "求第n位的斐波那契数") {
 //        print(fib01(2))
 //    }
-    check(title: "求第n位的斐波那契数") {
-        print(fib03(25))
+    let n = 60
+    
+//    check(title: "fib01") {
+//        print(fib01(n))
+//    }
+    check(title: "fib02") {
+        print(fib02(n))
+    }
+    check(title: "fib03") {
+        print(fib03(n))
+    }
+    check(title: "fib04") {
+        print(fib04(n))
+    }
+    check(title: "fib05") {
+        print(fib05(n))
     }
 }
-func fib03(_ n :NSInteger) -> NSInteger {
+
+
+func fib01(_ n :NSInteger) -> NSInteger {
     if n <= 1 { return n }
-    var first = 0, second = 1, temp = 0
-    for _ in 0..<n-1 {
-        temp = second
-        second = first+second
-        first = temp
-    }
-    return second
+    return fib01(n-1)+fib01(n-2)
 }
+
 func fib02(_ n :NSInteger) -> NSInteger {
     if n <= 1 { return n }
     var first = 0, second = 0
@@ -48,7 +59,29 @@ func fib02(_ n :NSInteger) -> NSInteger {
     return second
 }
 
-func fib01(_ n :NSInteger) -> NSInteger {
+func fib03(_ n :NSInteger) -> NSInteger {
     if n <= 1 { return n }
-    return fib01(n-1)+fib01(n-2)
+    var first = 0, second = 1, temp = 0
+    for _ in 0..<n-1 {
+        temp = second
+        second = first+second
+        first = temp
+    }
+    return second
+}
+
+func fib04(_ n :NSInteger) -> NSInteger {
+    if n <= 2 { return 1}
+    var first = 1, second = 1
+    for _ in 3...n {
+        second = first+second
+        first = second - first
+    }
+    return second
+}
+
+// 公式算法
+func fib05(_ n :NSInteger) -> NSInteger {
+    let square = Double(5).squareRoot()
+    return Int((pow(CGFloat((1+square)/2), CGFloat(n)) - pow(CGFloat((1-square)/2), CGFloat(n)))/CGFloat(square))
 }
