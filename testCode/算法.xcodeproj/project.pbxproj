@@ -26,6 +26,7 @@
 		3D840CB226A0672200AA49AF /* BucketSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D840CB126A0672200AA49AF /* BucketSort.swift */; };
 		3D840D1426A6A8F600AA49AF /* 爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D840D1326A6A8F600AA49AF /* 爬楼梯.swift */; };
 		3D840D1926A6AE7800AA49AF /* 汉诺塔.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D840D1826A6AE7800AA49AF /* 汉诺塔.swift */; };
+		3D840D1E26A6FDE600AA49AF /* 八皇后.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D840D1D26A6FDE600AA49AF /* 八皇后.swift */; };
 		3D8A4C14268F3B26007FAE81 /* _17_电话号码的字母组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A4C13268F3B26007FAE81 /* _17_电话号码的字母组合.swift */; };
 		3D8A4C18268F4302007FAE81 /* _3_无重复字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A4C17268F4302007FAE81 /* _3_无重复字符的最长子串.swift */; };
 		3D8A4C3E2691B563007FAE81 /* TopK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A4C3D2691B562007FAE81 /* TopK.swift */; };
@@ -70,6 +71,7 @@
 		3D840CB126A0672200AA49AF /* BucketSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketSort.swift; sourceTree = "<group>"; };
 		3D840D1326A6A8F600AA49AF /* 爬楼梯.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "爬楼梯.swift"; sourceTree = "<group>"; };
 		3D840D1826A6AE7800AA49AF /* 汉诺塔.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "汉诺塔.swift"; sourceTree = "<group>"; };
+		3D840D1D26A6FDE600AA49AF /* 八皇后.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "八皇后.swift"; sourceTree = "<group>"; };
 		3D8A4C13268F3B26007FAE81 /* _17_电话号码的字母组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_17_电话号码的字母组合.swift"; sourceTree = "<group>"; };
 		3D8A4C17268F4302007FAE81 /* _3_无重复字符的最长子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_3_无重复字符的最长子串.swift"; sourceTree = "<group>"; };
 		3D8A4C3D2691B562007FAE81 /* TopK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopK.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				3DD187A3265B8CCA00E39177 /* 斐波那契数.swift */,
 				3D840D1326A6A8F600AA49AF /* 爬楼梯.swift */,
 				3D840D1826A6AE7800AA49AF /* 汉诺塔.swift */,
+				3D840D1D26A6FDE600AA49AF /* 八皇后.swift */,
 				3D8A4C432692AB56007FAE81 /* 1基本结构数据结构 */,
 				3D609D75269BE70A006915E1 /* 堆 */,
 				3D609D7B269BE73D006915E1 /* 队列和栈 */,
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D840D1E26A6FDE600AA49AF /* 八皇后.swift in Sources */,
 				3D609DA6269C0DF0006915E1 /* ShellSort.swift in Sources */,
 				3D33E3B92685C8C500A1B239 /* RBTree.swift in Sources */,
 				3D8A4C4E2692ABBE007FAE81 /* Stack.swift in Sources */,
