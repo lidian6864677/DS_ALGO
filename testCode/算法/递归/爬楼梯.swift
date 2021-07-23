@@ -20,7 +20,7 @@ import Cocoa
  */
 
 func 爬楼梯(){
-    let  n = 25
+    let  n = 4
     check(title: "爬楼梯") {
         print(climb01(n))
     }

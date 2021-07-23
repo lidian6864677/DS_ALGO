@@ -171,6 +171,8 @@
 		3D68581F265B89E2006AA90D = {
 			isa = PBXGroup;
 			children = (
+				3D68582B265B89E2006AA90D /* main.swift */,
+				3D840D3126AA987000AA49AF /* 数据结构 */,
 				3D68582A265B89E2006AA90D /* 算法 */,
 				3D685829265B89E2006AA90D /* Products */,
 			);
@@ -187,30 +189,68 @@
 		3D68582A265B89E2006AA90D /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
-				3D68582B265B89E2006AA90D /* main.swift */,
-				3D840D1226A6A8E000AA49AF /* New Group */,
-				3DD187A3265B8CCA00E39177 /* 斐波那契数.swift */,
-				3D840D1326A6A8F600AA49AF /* 爬楼梯.swift */,
-				3D840D1826A6AE7800AA49AF /* 汉诺塔.swift */,
-				3D840D1D26A6FDE600AA49AF /* 八皇后.swift */,
+				3D609D73269BE6CB006915E1 /* 十大排序算法 */,
+				3D840D3526AA998400AA49AF /* 递归 */,
+				3D840D3326AA990A00AA49AF /* 回溯 */,
+				3D840D3026AA983400AA49AF /* 分治 */,
+				3D840D2F26AA982B00AA49AF /* 贪心 */,
+				3D840D1226A6A8E000AA49AF /* 动态规划 */,
+			);
+			path = "算法";
+			sourceTree = "<group>";
+		};
+		3D840D1226A6A8E000AA49AF /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "动态规划";
+			sourceTree = "<group>";
+		};
+		3D840D2F26AA982B00AA49AF /* 贪心 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "贪心";
+			sourceTree = "<group>";
+		};
+		3D840D3026AA983400AA49AF /* 分治 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "分治";
+			sourceTree = "<group>";
+		};
+		3D840D3126AA987000AA49AF /* 数据结构 */ = {
+			isa = PBXGroup;
+			children = (
 				3D8A4C432692AB56007FAE81 /* 1基本结构数据结构 */,
 				3D609D75269BE70A006915E1 /* 堆 */,
 				3D609D7B269BE73D006915E1 /* 队列和栈 */,
 				3D609D74269BE6EF006915E1 /* 二叉树 */,
 				3D609D79269BE736006915E1 /* 哈希 */,
 				3D609D76269BE70C006915E1 /* 链表 */,
-				3D609D73269BE6CB006915E1 /* 十大排序算法 */,
 				3D609D77269BE70E006915E1 /* 数组 */,
 				3D609D78269BE72B006915E1 /* 字符串 */,
 			);
-			path = "算法";
+			path = "数据结构";
 			sourceTree = "<group>";
 		};
-		3D840D1226A6A8E000AA49AF /* New Group */ = {
+		3D840D3326AA990A00AA49AF /* 回溯 */ = {
 			isa = PBXGroup;
 			children = (
+				3D840D1826A6AE7800AA49AF /* 汉诺塔.swift */,
+				3D840D1D26A6FDE600AA49AF /* 八皇后.swift */,
 			);
-			path = "New Group";
+			path = "回溯";
+			sourceTree = "<group>";
+		};
+		3D840D3526AA998400AA49AF /* 递归 */ = {
+			isa = PBXGroup;
+			children = (
+				3DD187A3265B8CCA00E39177 /* 斐波那契数.swift */,
+				3D840D1326A6A8F600AA49AF /* 爬楼梯.swift */,
+			);
+			path = "递归";
 			sourceTree = "<group>";
 		};
 		3D8A4C432692AB56007FAE81 /* 1基本结构数据结构 */ = {
