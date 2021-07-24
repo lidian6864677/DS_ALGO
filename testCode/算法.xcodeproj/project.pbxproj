@@ -34,6 +34,7 @@
 		3D8A4C452692AB77007FAE81 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A4C442692AB77007FAE81 /* Heap.swift */; };
 		3D8A4C4A2692ABB0007FAE81 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A4C492692ABB0007FAE81 /* Queue.swift */; };
 		3D8A4C4E2692ABBE007FAE81 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A4C4D2692ABBE007FAE81 /* Stack.swift */; };
+		3D8FEE6726AC05EB00D7E46B /* 最大连续子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FEE6626AC05EB00D7E46B /* 最大连续子序列.swift */; };
 		3DBCD307265B8BD00095E2DD /* _1_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBCD306265B8BD00095E2DD /* _1_两数之和.swift */; };
 		3DD187A4265B8CCA00E39177 /* 斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD187A3265B8CCA00E39177 /* 斐波那契数.swift */; };
 /* End PBXBuildFile section */
@@ -79,6 +80,7 @@
 		3D8A4C442692AB77007FAE81 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		3D8A4C492692ABB0007FAE81 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		3D8A4C4D2692ABBE007FAE81 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		3D8FEE6626AC05EB00D7E46B /* 最大连续子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "最大连续子序列.swift"; sourceTree = "<group>"; };
 		3DBCD306265B8BD00095E2DD /* _1_两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1_两数之和.swift"; sourceTree = "<group>"; };
 		3DD187A3265B8CCA00E39177 /* 斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "斐波那契数.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -202,6 +204,7 @@
 		3D840D1226A6A8E000AA49AF /* 动态规划 */ = {
 			isa = PBXGroup;
 			children = (
+				3D8FEE6626AC05EB00D7E46B /* 最大连续子序列.swift */,
 			);
 			path = "动态规划";
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				3D609D8A269BF6CC006915E1 /* BubbleSort02.swift in Sources */,
 				3D609D93269C0D37006915E1 /* InsertionSort01.swift in Sources */,
 				3D33E3BC2685CA4C00A1B239 /* BBST.swift in Sources */,
+				3D8FEE6726AC05EB00D7E46B /* 最大连续子序列.swift in Sources */,
 				3D609DA0269C0D71006915E1 /* MergeSort.swift in Sources */,
 				3D609DA3269C0D80006915E1 /* QuickSort.swift in Sources */,
 				3D609D7F269BE916006915E1 /* BubbleSort01.swift in Sources */,

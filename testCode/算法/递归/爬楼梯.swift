@@ -27,6 +27,9 @@ func 爬楼梯(){
     check(title: "爬楼梯") {
         print(climb02(n))
     }
+    
+    
+    
 }
 
 

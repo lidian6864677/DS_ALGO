@@ -14,6 +14,7 @@ import Cocoa
 
 func 八皇后(){
 //    let  n = 3
+    
     check(title: "八皇后") {
         
     }
