@@ -15,8 +15,12 @@ import Foundation
 //最大连续子序列()
 //背包问题_价值最高()
 //背包问题_恰好装满()
-_518_零钱兑换2()
+//_518_零钱兑换2()
 
+
+
+
+剑指Offer24_反转链表()
 
 //creat
 //var sortArray = createRandom(count: 100, min: 0, max: 1000)

@@ -39,6 +39,7 @@
 		3D8FEE7126AFBB6000D7E46B /* 背包问题_价值最高.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FEE7026AFBB6000D7E46B /* 背包问题_价值最高.swift */; };
 		3D8FEE7926B00B5800D7E46B /* 背包问题_恰好装满.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FEE7826B00B5800D7E46B /* 背包问题_恰好装满.swift */; };
 		3D8FEE7C26B1106F00D7E46B /* _518_零钱兑换2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FEE7B26B1106F00D7E46B /* _518_零钱兑换2.swift */; };
+		3D8FEE8026B12C9300D7E46B /* 剑指Offer24_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FEE7F26B12C9300D7E46B /* 剑指Offer24_反转链表.swift */; };
 		3DBCD307265B8BD00095E2DD /* _1_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBCD306265B8BD00095E2DD /* _1_两数之和.swift */; };
 		3DD187A4265B8CCA00E39177 /* 斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD187A3265B8CCA00E39177 /* 斐波那契数.swift */; };
 /* End PBXBuildFile section */
@@ -89,6 +90,7 @@
 		3D8FEE7026AFBB6000D7E46B /* 背包问题_价值最高.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "背包问题_价值最高.swift"; sourceTree = "<group>"; };
 		3D8FEE7826B00B5800D7E46B /* 背包问题_恰好装满.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "背包问题_恰好装满.swift"; sourceTree = "<group>"; };
 		3D8FEE7B26B1106F00D7E46B /* _518_零钱兑换2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_518_零钱兑换2.swift"; sourceTree = "<group>"; };
+		3D8FEE7F26B12C9300D7E46B /* 剑指Offer24_反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer24_反转链表.swift"; sourceTree = "<group>"; };
 		3DBCD306265B8BD00095E2DD /* _1_两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1_两数之和.swift"; sourceTree = "<group>"; };
 		3DD187A3265B8CCA00E39177 /* 斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "斐波那契数.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +145,7 @@
 		3D609D76269BE70C006915E1 /* 链表 */ = {
 			isa = PBXGroup;
 			children = (
+				3D8FEE7F26B12C9300D7E46B /* 剑指Offer24_反转链表.swift */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				3D840CB226A0672200AA49AF /* BucketSort.swift in Sources */,
 				3D840CAF26A0601600AA49AF /* RadixStor.swift in Sources */,
 				3D8A4C14268F3B26007FAE81 /* _17_电话号码的字母组合.swift in Sources */,
+				3D8FEE8026B12C9300D7E46B /* 剑指Offer24_反转链表.swift in Sources */,
 				3D8FEE7126AFBB6000D7E46B /* 背包问题_价值最高.swift in Sources */,
 				3D609D83269BE953006915E1 /* BaseSort.swift in Sources */,
 				3D8FEE7C26B1106F00D7E46B /* _518_零钱兑换2.swift in Sources */,
