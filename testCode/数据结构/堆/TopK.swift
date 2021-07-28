@@ -9,7 +9,7 @@ import Cocoa
 
 func topK(){
     check(title: "topK") {
-        let result = lengthOfLongestSubstring("pwwkew")
+//        let result = lengthOfLongestSubstring03("pwwkew")
         print(result)
     }
 }

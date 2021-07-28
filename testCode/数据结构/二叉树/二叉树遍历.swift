@@ -9,7 +9,7 @@ import Cocoa
 
 func 二叉树遍历(){
     check(title: "二叉树遍历") {
-        let result = lengthOfLongestSubstring("pwwkew")
+//        let result = lengthOfLongestSubstring("pwwkew")
         print(result)
     }
 }

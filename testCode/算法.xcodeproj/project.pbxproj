@@ -35,6 +35,10 @@
 		3D8A4C4A2692ABB0007FAE81 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A4C492692ABB0007FAE81 /* Queue.swift */; };
 		3D8A4C4E2692ABBE007FAE81 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A4C4D2692ABBE007FAE81 /* Stack.swift */; };
 		3D8FEE6726AC05EB00D7E46B /* 最大连续子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FEE6626AC05EB00D7E46B /* 最大连续子序列.swift */; };
+		3D8FEE6E26AED06000D7E46B /* 最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FEE6D26AED05F00D7E46B /* 最长公共子序列.swift */; };
+		3D8FEE7126AFBB6000D7E46B /* 背包问题_价值最高.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FEE7026AFBB6000D7E46B /* 背包问题_价值最高.swift */; };
+		3D8FEE7926B00B5800D7E46B /* 背包问题_恰好装满.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FEE7826B00B5800D7E46B /* 背包问题_恰好装满.swift */; };
+		3D8FEE7C26B1106F00D7E46B /* _518_零钱兑换2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FEE7B26B1106F00D7E46B /* _518_零钱兑换2.swift */; };
 		3DBCD307265B8BD00095E2DD /* _1_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBCD306265B8BD00095E2DD /* _1_两数之和.swift */; };
 		3DD187A4265B8CCA00E39177 /* 斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD187A3265B8CCA00E39177 /* 斐波那契数.swift */; };
 /* End PBXBuildFile section */
@@ -81,6 +85,10 @@
 		3D8A4C492692ABB0007FAE81 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		3D8A4C4D2692ABBE007FAE81 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		3D8FEE6626AC05EB00D7E46B /* 最大连续子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "最大连续子序列.swift"; sourceTree = "<group>"; };
+		3D8FEE6D26AED05F00D7E46B /* 最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "最长公共子序列.swift"; sourceTree = "<group>"; };
+		3D8FEE7026AFBB6000D7E46B /* 背包问题_价值最高.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "背包问题_价值最高.swift"; sourceTree = "<group>"; };
+		3D8FEE7826B00B5800D7E46B /* 背包问题_恰好装满.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "背包问题_恰好装满.swift"; sourceTree = "<group>"; };
+		3D8FEE7B26B1106F00D7E46B /* _518_零钱兑换2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_518_零钱兑换2.swift"; sourceTree = "<group>"; };
 		3DBCD306265B8BD00095E2DD /* _1_两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1_两数之和.swift"; sourceTree = "<group>"; };
 		3DD187A3265B8CCA00E39177 /* 斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "斐波那契数.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -205,6 +213,10 @@
 			isa = PBXGroup;
 			children = (
 				3D8FEE6626AC05EB00D7E46B /* 最大连续子序列.swift */,
+				3D8FEE6D26AED05F00D7E46B /* 最长公共子序列.swift */,
+				3D8FEE7026AFBB6000D7E46B /* 背包问题_价值最高.swift */,
+				3D8FEE7826B00B5800D7E46B /* 背包问题_恰好装满.swift */,
+				3D8FEE7B26B1106F00D7E46B /* _518_零钱兑换2.swift */,
 			);
 			path = "动态规划";
 			sourceTree = "<group>";
@@ -349,11 +361,13 @@
 				3D609D96269C0D43006915E1 /* SelectSort01.swift in Sources */,
 				3D8A4C18268F4302007FAE81 /* _3_无重复字符的最长子串.swift in Sources */,
 				3D840CAC26A0429000AA49AF /* CountingSort.swift in Sources */,
+				3D8FEE7926B00B5800D7E46B /* 背包问题_恰好装满.swift in Sources */,
 				3D609D90269C0D20006915E1 /* HeapSort.swift in Sources */,
 				3D609D99269C0D4E006915E1 /* InsertionSort02.swift in Sources */,
 				3D68582C265B89E2006AA90D /* main.swift in Sources */,
 				3D756628265E27D70075CEA4 /* LinkedList.swift in Sources */,
 				3D8A4C3E2691B563007FAE81 /* TopK.swift in Sources */,
+				3D8FEE6E26AED06000D7E46B /* 最长公共子序列.swift in Sources */,
 				3D8A4C4A2692ABB0007FAE81 /* Queue.swift in Sources */,
 				3D8A4C412692AA31007FAE81 /* 二叉树遍历.swift in Sources */,
 				3D840D1426A6A8F600AA49AF /* 爬楼梯.swift in Sources */,
@@ -361,7 +375,9 @@
 				3D840CB226A0672200AA49AF /* BucketSort.swift in Sources */,
 				3D840CAF26A0601600AA49AF /* RadixStor.swift in Sources */,
 				3D8A4C14268F3B26007FAE81 /* _17_电话号码的字母组合.swift in Sources */,
+				3D8FEE7126AFBB6000D7E46B /* 背包问题_价值最高.swift in Sources */,
 				3D609D83269BE953006915E1 /* BaseSort.swift in Sources */,
+				3D8FEE7C26B1106F00D7E46B /* _518_零钱兑换2.swift in Sources */,
 				3D8A4C452692AB77007FAE81 /* Heap.swift in Sources */,
 				3D840D1926A6AE7800AA49AF /* 汉诺塔.swift in Sources */,
 			);
