@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D058D0A26B91BFE00F3063B /* _15_三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D058D0926B91BFE00F3063B /* _15_三数之和.swift */; };
+		3D058D0E26B9367500F3063B /* _98_验证二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D058D0D26B9367400F3063B /* _98_验证二叉搜索树.swift */; };
+		3D058D1226B9640E00F3063B /* _235_二叉搜索树的最近公共祖先.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D058D1126B9640E00F3063B /* _235_二叉搜索树的最近公共祖先.swift */; };
+		3D058D1626B9646D00F3063B /* _236_二叉树的最近公共祖先.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D058D1526B9646D00F3063B /* _236_二叉树的最近公共祖先.swift */; };
 		3D33E3B92685C8C500A1B239 /* RBTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D33E3B82685C8C500A1B239 /* RBTree.swift */; };
 		3D33E3BC2685CA4C00A1B239 /* BBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D33E3BB2685CA4C00A1B239 /* BBST.swift */; };
 		3D609D7F269BE916006915E1 /* BubbleSort01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D609D7E269BE916006915E1 /* BubbleSort01.swift */; };
@@ -57,6 +61,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3D058D0926B91BFE00F3063B /* _15_三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_15_三数之和.swift"; sourceTree = "<group>"; };
+		3D058D0D26B9367400F3063B /* _98_验证二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_98_验证二叉搜索树.swift"; sourceTree = "<group>"; };
+		3D058D1126B9640E00F3063B /* _235_二叉搜索树的最近公共祖先.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_235_二叉搜索树的最近公共祖先.swift"; sourceTree = "<group>"; };
+		3D058D1526B9646D00F3063B /* _236_二叉树的最近公共祖先.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_236_二叉树的最近公共祖先.swift"; sourceTree = "<group>"; };
 		3D33E3B82685C8C500A1B239 /* RBTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBTree.swift; sourceTree = "<group>"; };
 		3D33E3BB2685CA4C00A1B239 /* BBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBST.swift; sourceTree = "<group>"; };
 		3D609D7E269BE916006915E1 /* BubbleSort01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort01.swift; sourceTree = "<group>"; };
@@ -130,6 +138,9 @@
 			isa = PBXGroup;
 			children = (
 				3D8A4C402692AA30007FAE81 /* 二叉树遍历.swift */,
+				3D058D0D26B9367400F3063B /* _98_验证二叉搜索树.swift */,
+				3D058D1126B9640E00F3063B /* _235_二叉搜索树的最近公共祖先.swift */,
+				3D058D1526B9646D00F3063B /* _236_二叉树的最近公共祖先.swift */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -169,6 +180,7 @@
 			children = (
 				3DBCD306265B8BD00095E2DD /* _1_两数之和.swift */,
 				3D8A4C17268F4302007FAE81 /* _3_无重复字符的最长子串.swift */,
+				3D058D0926B91BFE00F3063B /* _15_三数之和.swift */,
 				3D8A4C13268F3B26007FAE81 /* _17_电话号码的字母组合.swift */,
 			);
 			path = "哈希";
@@ -350,18 +362,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D840D1E26A6FDE600AA49AF /* 八皇后.swift in Sources */,
+				3D058D0A26B91BFE00F3063B /* _15_三数之和.swift in Sources */,
 				3D609DA6269C0DF0006915E1 /* ShellSort.swift in Sources */,
 				3D33E3B92685C8C500A1B239 /* RBTree.swift in Sources */,
 				3D8A4C4E2692ABBE007FAE81 /* Stack.swift in Sources */,
 				3DBCD307265B8BD00095E2DD /* _1_两数之和.swift in Sources */,
 				3D609D8A269BF6CC006915E1 /* BubbleSort02.swift in Sources */,
+				3D058D1226B9640E00F3063B /* _235_二叉搜索树的最近公共祖先.swift in Sources */,
 				3D609D93269C0D37006915E1 /* InsertionSort01.swift in Sources */,
 				3D33E3BC2685CA4C00A1B239 /* BBST.swift in Sources */,
 				3D8FEE6726AC05EB00D7E46B /* 最大连续子序列.swift in Sources */,
 				3D609DA0269C0D71006915E1 /* MergeSort.swift in Sources */,
 				3D609DA3269C0D80006915E1 /* QuickSort.swift in Sources */,
 				3D609D7F269BE916006915E1 /* BubbleSort01.swift in Sources */,
+				3D058D1626B9646D00F3063B /* _236_二叉树的最近公共祖先.swift in Sources */,
 				3D609D96269C0D43006915E1 /* SelectSort01.swift in Sources */,
+				3D058D0E26B9367500F3063B /* _98_验证二叉搜索树.swift in Sources */,
 				3D8A4C18268F4302007FAE81 /* _3_无重复字符的最长子串.swift in Sources */,
 				3D840CAC26A0429000AA49AF /* CountingSort.swift in Sources */,
 				3D8FEE7926B00B5800D7E46B /* 背包问题_恰好装满.swift in Sources */,

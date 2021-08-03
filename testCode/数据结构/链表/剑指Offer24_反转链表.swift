@@ -35,8 +35,32 @@ func 剑指Offer24_反转链表(){
     nodeTostring(reverseList(node))
    }
 }
-
 func reverseList(_ head: ListNode?) -> ListNode? {
+    var prev:ListNode? = nil, cur = head
+    while cur != nil {
+        let temp = cur?.next
+        cur?.next = prev
+        prev = cur
+        cur = temp
+    }
+    return prev
+}
+
+
+func reverseList02(_ head: ListNode?) -> ListNode? {
+    
+    var newHeader: ListNode? = nil
+    var node = head
+    while node != nil {
+        let temp = node?.next
+        node?.next = newHeader
+        newHeader = node
+        node = temp
+    }
+    return newHeader
+}
+
+func reverseList01(_ head: ListNode?) -> ListNode? {
     return reList(nil,head)
 }
 func reList(_ pre:ListNode?, _ cur:ListNode?) -> ListNode?{
@@ -45,6 +69,7 @@ func reList(_ pre:ListNode?, _ cur:ListNode?) -> ListNode?{
     curNode.next = pre
     return node
 }
+
 
 func addNode(_ list: [Int]) -> ListNode {
     let node = ListNode(list[0])
