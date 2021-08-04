@@ -12,6 +12,7 @@
 		3D058D1226B9640E00F3063B /* _235_二叉搜索树的最近公共祖先.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D058D1126B9640E00F3063B /* _235_二叉搜索树的最近公共祖先.swift */; };
 		3D058D1626B9646D00F3063B /* _236_二叉树的最近公共祖先.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D058D1526B9646D00F3063B /* _236_二叉树的最近公共祖先.swift */; };
 		3D058D1926BA5C0400F3063B /* _102_二叉树的层序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D058D1826BA5C0400F3063B /* _102_二叉树的层序遍历.swift */; };
+		3D058D1C26BA613A00F3063B /* _111_二叉树的最小深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D058D1B26BA613A00F3063B /* _111_二叉树的最小深度.swift */; };
 		3D33E3B92685C8C500A1B239 /* RBTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D33E3B82685C8C500A1B239 /* RBTree.swift */; };
 		3D33E3BC2685CA4C00A1B239 /* BBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D33E3BB2685CA4C00A1B239 /* BBST.swift */; };
 		3D609D7F269BE916006915E1 /* BubbleSort01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D609D7E269BE916006915E1 /* BubbleSort01.swift */; };
@@ -67,6 +68,7 @@
 		3D058D1126B9640E00F3063B /* _235_二叉搜索树的最近公共祖先.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_235_二叉搜索树的最近公共祖先.swift"; sourceTree = "<group>"; };
 		3D058D1526B9646D00F3063B /* _236_二叉树的最近公共祖先.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_236_二叉树的最近公共祖先.swift"; sourceTree = "<group>"; };
 		3D058D1826BA5C0400F3063B /* _102_二叉树的层序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_102_二叉树的层序遍历.swift"; sourceTree = "<group>"; };
+		3D058D1B26BA613A00F3063B /* _111_二叉树的最小深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_111_二叉树的最小深度.swift"; sourceTree = "<group>"; };
 		3D33E3B82685C8C500A1B239 /* RBTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBTree.swift; sourceTree = "<group>"; };
 		3D33E3BB2685CA4C00A1B239 /* BBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBST.swift; sourceTree = "<group>"; };
 		3D609D7E269BE916006915E1 /* BubbleSort01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort01.swift; sourceTree = "<group>"; };
@@ -141,9 +143,10 @@
 			children = (
 				3D8A4C402692AA30007FAE81 /* 二叉树遍历.swift */,
 				3D058D0D26B9367400F3063B /* _98_验证二叉搜索树.swift */,
+				3D058D1826BA5C0400F3063B /* _102_二叉树的层序遍历.swift */,
+				3D058D1B26BA613A00F3063B /* _111_二叉树的最小深度.swift */,
 				3D058D1126B9640E00F3063B /* _235_二叉搜索树的最近公共祖先.swift */,
 				3D058D1526B9646D00F3063B /* _236_二叉树的最近公共祖先.swift */,
-				3D058D1826BA5C0400F3063B /* _102_二叉树的层序遍历.swift */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D840D1E26A6FDE600AA49AF /* 八皇后.swift in Sources */,
+				3D058D1C26BA613A00F3063B /* _111_二叉树的最小深度.swift in Sources */,
 				3D058D0A26B91BFE00F3063B /* _15_三数之和.swift in Sources */,
 				3D609DA6269C0DF0006915E1 /* ShellSort.swift in Sources */,
 				3D33E3B92685C8C500A1B239 /* RBTree.swift in Sources */,
