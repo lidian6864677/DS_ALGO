@@ -13,7 +13,7 @@ class Trie {
     var end_of_word = "#"
     
     init() {
-        root = trieNode()
+//        root = trieNode()
 
     }
     

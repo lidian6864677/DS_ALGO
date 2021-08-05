@@ -12,9 +12,11 @@ import Foundation
 //_22_括号生成()
 //_17_电话号码的字母组合()
 //_69_x的平方根()
+//_70_爬楼梯_动态规划()
 //_98_验证二叉搜索树()
 //_102_二叉树的层序遍历()
 //_111_二叉树的最小深度()
+_120_三角形最小路径和()
 //_235_二叉搜索树的最近公共祖先()
 //_236_二叉树的最近公共祖先()
 //_518_零钱兑换2()
@@ -24,12 +26,33 @@ import Foundation
 //最大连续子序列()
 //背包问题_价值最高()
 //背包问题_恰好装满()
-trieNode()
-func trieNode(){
-    let trie = Trie()
-    trie.insert("apple")
-    print(trie.search("apple"))
-}
+//trieNode()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//func trieNode(){
+//    let trie = Trie()
+//    trie.insert("apple")
+//    print(trie.search("apple"))
+//}
 
 
 
