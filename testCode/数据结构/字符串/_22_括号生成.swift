@@ -46,7 +46,7 @@ func generateParenthesis(_ n: Int) -> [String] {
     return genResult
 }
 func generate(n:Int, left: Int, right: Int, result: String = "") {
-    if left == n && right == n { // 左右都符合了内个括号
+    if left == n && right == n { // 左右都符合了 n个数括号
         genResult.append(result)
         return
     }
