@@ -17,6 +17,10 @@ func 最大连续子序列(){
 }
 
 
+/**
+ -2, 1, -2, 4, 3, 5, 6, 1,5
+ 
+ */
 func maxList02(_ nums:[Int]) -> Int{
     if nums.count <= 0 { return 0 }
     var dp:Int = nums[0], maxNum:Int = dp

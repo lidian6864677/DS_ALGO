@@ -18,6 +18,10 @@
 		3D058D2B26BABE9700F3063B /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D058D2A26BABE9700F3063B /* Trie.swift */; };
 		3D058D3026BB8E6E00F3063B /* _70_爬楼梯_动态规划.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D058D2F26BB8E6E00F3063B /* _70_爬楼梯_动态规划.swift */; };
 		3D058D3326BBB07300F3063B /* _120_三角形最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D058D3226BBB07300F3063B /* _120_三角形最小路径和.swift */; };
+		3D058D3626BBD29400F3063B /* _152_乘积最大子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D058D3526BBD29400F3063B /* _152_乘积最大子数组.swift */; };
+		3D058D3926BBE74500F3063B /* _121_买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D058D3826BBE74500F3063B /* _121_买卖股票的最佳时机.swift */; };
+		3D058D3C26BBEC5600F3063B /* _122_买卖股票的最佳时机II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D058D3B26BBEC5600F3063B /* _122_买卖股票的最佳时机II.swift */; };
+		3D058D3F26BBEE1C00F3063B /* _123_买卖股票的最佳时机III.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D058D3E26BBEE1C00F3063B /* _123_买卖股票的最佳时机III.swift */; };
 		3D33E3B92685C8C500A1B239 /* RBTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D33E3B82685C8C500A1B239 /* RBTree.swift */; };
 		3D33E3BC2685CA4C00A1B239 /* BBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D33E3BB2685CA4C00A1B239 /* BBST.swift */; };
 		3D609D7F269BE916006915E1 /* BubbleSort01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D609D7E269BE916006915E1 /* BubbleSort01.swift */; };
@@ -78,6 +82,10 @@
 		3D058D2A26BABE9700F3063B /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		3D058D2F26BB8E6E00F3063B /* _70_爬楼梯_动态规划.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_70_爬楼梯_动态规划.swift"; sourceTree = "<group>"; };
 		3D058D3226BBB07300F3063B /* _120_三角形最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_120_三角形最小路径和.swift"; sourceTree = "<group>"; };
+		3D058D3526BBD29400F3063B /* _152_乘积最大子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_152_乘积最大子数组.swift"; sourceTree = "<group>"; };
+		3D058D3826BBE74500F3063B /* _121_买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_121_买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
+		3D058D3B26BBEC5600F3063B /* _122_买卖股票的最佳时机II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_122_买卖股票的最佳时机II.swift"; sourceTree = "<group>"; };
+		3D058D3E26BBEE1C00F3063B /* _123_买卖股票的最佳时机III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_123_买卖股票的最佳时机III.swift"; sourceTree = "<group>"; };
 		3D33E3B82685C8C500A1B239 /* RBTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBTree.swift; sourceTree = "<group>"; };
 		3D33E3BB2685CA4C00A1B239 /* BBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBST.swift; sourceTree = "<group>"; };
 		3D609D7E269BE916006915E1 /* BubbleSort01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort01.swift; sourceTree = "<group>"; };
@@ -265,6 +273,10 @@
 				3D8FEE7B26B1106F00D7E46B /* _518_零钱兑换2.swift */,
 				3D058D2F26BB8E6E00F3063B /* _70_爬楼梯_动态规划.swift */,
 				3D058D3226BBB07300F3063B /* _120_三角形最小路径和.swift */,
+				3D058D3526BBD29400F3063B /* _152_乘积最大子数组.swift */,
+				3D058D3826BBE74500F3063B /* _121_买卖股票的最佳时机.swift */,
+				3D058D3B26BBEC5600F3063B /* _122_买卖股票的最佳时机II.swift */,
+				3D058D3E26BBEE1C00F3063B /* _123_买卖股票的最佳时机III.swift */,
 			);
 			path = "动态规划";
 			sourceTree = "<group>";
@@ -398,6 +410,7 @@
 				3D840D1E26A6FDE600AA49AF /* _51_N皇后.swift in Sources */,
 				3D058D1C26BA613A00F3063B /* _111_二叉树的最小深度.swift in Sources */,
 				3D058D0A26B91BFE00F3063B /* _15_三数之和.swift in Sources */,
+				3D058D3626BBD29400F3063B /* _152_乘积最大子数组.swift in Sources */,
 				3D609DA6269C0DF0006915E1 /* ShellSort.swift in Sources */,
 				3D058D2B26BABE9700F3063B /* Trie.swift in Sources */,
 				3D058D2626BA9AD100F3063B /* _69_x的平方根.swift in Sources */,
@@ -413,6 +426,7 @@
 				3D058D2026BA65FE00F3063B /* _22_括号生成.swift in Sources */,
 				3D609DA3269C0D80006915E1 /* QuickSort.swift in Sources */,
 				3D609D7F269BE916006915E1 /* BubbleSort01.swift in Sources */,
+				3D058D3926BBE74500F3063B /* _121_买卖股票的最佳时机.swift in Sources */,
 				3D058D1626B9646D00F3063B /* _236_二叉树的最近公共祖先.swift in Sources */,
 				3D609D96269C0D43006915E1 /* SelectSort01.swift in Sources */,
 				3D058D0E26B9367500F3063B /* _98_验证二叉搜索树.swift in Sources */,
@@ -421,6 +435,7 @@
 				3D058D3026BB8E6E00F3063B /* _70_爬楼梯_动态规划.swift in Sources */,
 				3D8FEE7926B00B5800D7E46B /* 背包问题_恰好装满.swift in Sources */,
 				3D609D90269C0D20006915E1 /* HeapSort.swift in Sources */,
+				3D058D3C26BBEC5600F3063B /* _122_买卖股票的最佳时机II.swift in Sources */,
 				3D058D1926BA5C0400F3063B /* _102_二叉树的层序遍历.swift in Sources */,
 				3D68582C265B89E2006AA90D /* main.swift in Sources */,
 				3D756628265E27D70075CEA4 /* LinkedList.swift in Sources */,
@@ -430,6 +445,7 @@
 				3D8A4C412692AA31007FAE81 /* 二叉树遍历.swift in Sources */,
 				3D840D1426A6A8F600AA49AF /* 爬楼梯_递归.swift in Sources */,
 				3DD187A4265B8CCA00E39177 /* 斐波那契数.swift in Sources */,
+				3D058D3F26BBEE1C00F3063B /* _123_买卖股票的最佳时机III.swift in Sources */,
 				3D840CB226A0672200AA49AF /* BucketSort.swift in Sources */,
 				3D840CAF26A0601600AA49AF /* RadixStor.swift in Sources */,
 				3D8A4C14268F3B26007FAE81 /* _17_电话号码的字母组合.swift in Sources */,

@@ -57,18 +57,38 @@ import Cocoa
  自顶向下的最小路径和为 11（即，2 + 3 + 5 + 1 = 11）。
  
  
+ 4，1，8，3
+ 7，6，10
+ 9，10
+ 11
  
+ dp[j] = min(dp[j], dp[j+1])+row[i][j]
  
- 
+ -1
+ 2,3
+ 1,-1,-3
  */
 func _120_三角形最小路径和(){
-    let triangle = [[-1],[2,3],[1,-1,-3]];
+    let triangle =   [[2],[3,4],[6,5,7],[4,1,8,3]];
    check(title: "_120_三角形最小路径和") {
        print(minimumTotal(triangle))
    }
 }
 
 func minimumTotal(_ triangle: [[Int]]) -> Int {
+    if triangle.count == 0 { return 0 }
+    var dp = [Int](repeating: 0, count: triangle.count)
+    dp = triangle[triangle.count-1]
+    for i in (0..<dp.count-1).reversed() {
+        for j in 0..<triangle[i].count {
+            dp[j] = min(dp[j], dp[j+1]) + triangle[i][j]
+        }
+    }
+    return dp[0]
+}
+
+
+func minimumTotal01(_ triangle: [[Int]]) -> Int {
     if triangle.count == 0 { return 0 }
     if triangle.count == 1 { return triangle[0][0] }
     var dp = [Int](repeating: 0, count: triangle.count)
@@ -81,7 +101,7 @@ func minimumTotal(_ triangle: [[Int]]) -> Int {
             }else if i == 0{
                 dp[0] = dp[0] + row[i]
             }else{
-                dp[i] = dp[i] > dp[i-1] ? dp[i-1]+row[i]:dp[i]+row[i]
+                dp[i] = row[i] + min(dp[i], dp[i-1])
             }
         }
     }
