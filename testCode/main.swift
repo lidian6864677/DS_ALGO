@@ -101,12 +101,12 @@ _313_超级丑数()
 
 
 
-//func main() {
+func main() {
 //    check(title: "print") {
 //        print("奥术大师多和")
 //    }
 ////    createRandom(count: <#T##NSInteger#>, min: <#T##NSInteger#>, max: <#T##NSInteger#>)
-//}
+}
 
 
 
